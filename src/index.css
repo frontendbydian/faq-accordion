@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-VariableFont_wght.ttf");
+}
+
+*,
+*::after,
+*::before {
+  font-family: "Work Sans", sans-serif;
+}
