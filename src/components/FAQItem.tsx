@@ -23,7 +23,7 @@ export default function FAQItem({ question, answer }: Props) {
           onClick={() => setShow(!show)}
         >
           <img
-            src={`/images/icon-${show ? "plus" : "minus"}.svg`}
+            src={`/images/icon-${show ? "minus" : "plus"}.svg`}
             alt="hide button"
             className="object-cover w-full h-full"
           />
