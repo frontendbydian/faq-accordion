@@ -12,7 +12,12 @@ export default function FAQItem({ question, answer }: Props) {
     <>
       {" "}
       <div className="flex items-center justify-between gap-4">
-        <h2 className="font-semibold md:text-lg">{question}</h2>
+        <h2
+          className="font-semibold cursor-pointer md:text-lg hover:text-custom-purple"
+          onClick={() => setShow(!show)}
+        >
+          {question}
+        </h2>
         <button
           className="flex max-w-6 min-w-6 md:max-w-8 md:min-w-8"
           onClick={() => setShow(!show)}
