@@ -44,7 +44,7 @@ Thisis the result of the challenge
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/faq-accordion-using-react-js-and-tailwind-css-8lcmZCdNLs)
 - Live Site URL: [FAQ Accordion](https://faq-accordion-dianprasetyo.netlify.app/)
 
 ## My process
